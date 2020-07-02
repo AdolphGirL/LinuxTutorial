@@ -18,3 +18,10 @@
   查看該pid是哪個程式
   tasklist | findstr 1860
   ```
+- linux 查詢占用port  
+  ```
+  netstat -tulpn | grep LISTEN
+
+  查詢 port 80 的語法:
+  netstat -tulpn | grep :80
+  ```
